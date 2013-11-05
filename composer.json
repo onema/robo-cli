@@ -1,0 +1,26 @@
+{
+    "name": "onema/robo-cli",
+    "homepage": "http://onema.io",
+    "description":"Tweet from the command line",
+    "keywords":["twitter", "console", "CLI", "demo"],
+    "type":"library",
+    "license":"MIT",
+    "authors": [
+        {
+            "name": "Juan Manuel Torres",
+            "email": "kinojman@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/console": "2.4.*@dev",
+        "symfony/yaml": "2.4.*@dev",
+        "guzzle/guzzle": "3.7.*@dev"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "Onema": "src/"
+        }
+    }
+}
