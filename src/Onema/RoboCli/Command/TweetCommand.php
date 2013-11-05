@@ -20,24 +20,22 @@ use Guzzle\Plugin\Oauth\OauthPlugin;
 use Guzzle\Http\Client;
 
 /**
- * Description of TwitCommand
- *
  * @author Juan Manuel Torres <kinojman@gmail.com>
  * @copyright (c) 2013-2014, Juan Manuel Torres
  */
-class TwitCommand extends Command
+class TweetCommand extends Command
 {
     
     protected function configure()
     {
         $this
-            ->setName('robocli:twitt')
-            ->setDescription('Twitt.')
+            ->setName('robocli:tweet')
+            ->setDescription('Send a status update to twitter.')
             ->addOption(
                'message',
                null,
                InputOption::VALUE_REQUIRED,
-               'Message to Twitt'
+               'Message to Tweet'
             )
         ;
     }
