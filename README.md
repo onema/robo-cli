@@ -34,7 +34,7 @@ For more information see the [Twitter Developers](https://dev.twitter.com/) site
 **Don't forget to set the permissions to read and write and set the callback url!!**
 
 ##Using the console
-From the project root type the following command in the termina
+From the project root, type the following command in the terminal
 ```
 php app/console robocli:tweet --message="Write your status update!! #awesome #app"
 ```
